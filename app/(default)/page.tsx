@@ -7,7 +7,8 @@ import PageIllustration from "@/components/page-illustration";
 import Hero from "@/components/hero-home";
 import Workflows from "@/components/workflows";
 import Testimonials from "@/components/testimonials";
-
+import Cta from "@/components/cta";
+import SignIn from "../(auth)/signin/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Workflows />
       <Testimonials />
+     
     </>
   );
 }
