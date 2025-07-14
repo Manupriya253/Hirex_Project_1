@@ -91,3 +91,50 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+body {
+  background-color: #ffffff;
+  color: #0a0a0a;
+}
+
+@keyframes animatedBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-shine {
+  background-size: 200% 200%;
+  animation: shine 10s ease-in-out infinite;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .animate-shine {
+    background-size: 200% 200%;
+    animation: shine 10s ease-in-out infinite;
+  }
+}

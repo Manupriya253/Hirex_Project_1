@@ -9,20 +9,27 @@ export default function HeroHome() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-20">
-            <h1
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#99C2E8,#FFFFFF,#B8F2F2,#FFFFFF,#99C2E8)] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
+           <h1
+              className="pb-5 font-nacelle text-4xl font-semibold text-gray-900 md:text-5xl"
               data-aos="fade-up"
             >
               Empowering Workforce Solutions for Every Industry
             </h1>
+
+
             <div className="mx-auto max-w-3xl">
-              <p
-                className="mb-8 text-xl text-indigo-200/65"
-                data-aos="fade-up"
-                data-aos-delay={200}
-              >
-                From recruitment to placement, Hirex delivers skilled manpower and HR expertise to help your business grow reliably, efficiently, and across all sectors.
-              </p>
+                <div className="max-w-3xl mx-auto text-center">
+               <p
+                  className="mb-8 text-xl text-sky-800"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                >
+                  From recruitment to placement, Hirex delivers skilled manpower and HR expertise to help your business grow reliably, efficiently, and across all sectors.
+                </p>
+
+            </div>
+
+
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <div data-aos="fade-up" data-aos-delay={400}>
                   <a
@@ -39,22 +46,22 @@ export default function HeroHome() {
               </div>
 
                 <div data-aos="fade-up" data-aos-delay={600}>
-                  <a
-                    className="btn relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Contact Us
-                  </a>
-                </div>
+                <a
+                  className="btn relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
+                  href="mailto:info@hirex.lk"
+                >
+                  Contact Us
+                </a>
               </div>
+            </div>
           </div>
 
           </div>
 
           <ModalVideo
             thumb={VideoThumb}
-            thumbWidth={1104}
-            thumbHeight={576}
+            thumbWidth={1100}
+            thumbHeight={750}
             thumbAlt="Modal video thumbnail"
             video="videos//video.mp4"
             videoWidth={1920}

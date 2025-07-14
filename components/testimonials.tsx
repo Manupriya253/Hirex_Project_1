@@ -17,81 +17,84 @@ import TestimonialImg09 from "@/public/images/testimonial-09.jpg";
 const testimonials = [
   {
     img: TestimonialImg01,
-    name: "Nimesh Perera",
-    company: "Operations Manager at Colombo Logistics",
+    name: "Muaaz Fazlin",
+    company: "Finance & Operation Manager at a leading Australian company ",
     content:
-      "Hirex.lk helped us fill critical roles quickly with qualified professionals. The process was smooth and saved us weeks of effort.",
+      "HireX isn’t just a company, it’s a family. We look out for each other, grow together, and create something meaningful every day. It’s the kind of place where people matter just as much as the work we do. The process was smooth and saved us weeks of effort.",
   },
   {
     img: TestimonialImg02,
-    name: "Malini Fernando",
-    company: "HR Director at Global Apparel",
+    name: "Ashvika Selvarajan",
+    company: "Team Lead at a leading Australian company",
     content:
-      "Their outsourced manpower service is exceptional. We scaled operations seamlessly during peak season with their reliable workforce.",
-  },
-  {
-    img: TestimonialImg03,
-    name: "Aravinda Jayasinghe",
-    company: "CEO, TechZone Pvt Ltd",
-    content:
-      "Hirex.lk's HR advisory team gave us the guidance we needed to build a more engaged and productive team. Highly recommended.",
+      "I am proud to be part of a team that is dedicated to delivering exceptional service. Working here has given me the opportunity to grow professionally in a supportive environment where every contribution is valued and appreciated. The positive culture and commitment to excellence at Hirex inspire me to give my best every day.",
   },
   {
     img: TestimonialImg04,
-    name: "Shanika Wijesooriya",
-    company: "Recruitment Lead at Greenfields Exporters",
+    name: "Nimeesha Adolphus",
+    company: "Assistant Accountant at Greenfields Exporters",
     content:
-      "Their recruitment solutions are tailored to our needs. We found specialized talent in record time. Professional and dependable service.",
+      "we don’t just find jobs we build futures with care, integrity, and unwavering commitment. Every interaction reflects our passion for connecting people with the right opportunities. Being part of Hirex feels less like work, and more like family.",
   },
-  {
-    img: TestimonialImg05,
-    name: "Roshan De Silva",
-    company: "General Manager, BlueWave Industries",
-    content:
-      "Excellent service. Their team understood our requirements and delivered quality candidates that perfectly fit our culture.",
-  },
-  {
-    img: TestimonialImg06,
-    name: "Dilani Karunarathne",
-    company: "HR Specialist at CityBuild Group",
-    content:
-      "We used Hirex.lk to recruit across multiple locations. Their platform and team made the process fast and stress-free.",
-  },
-  {
-    img: TestimonialImg07,
-    name: "Kevin Rajapaksha",
-    company: "Head of Procurement at Medisafe Supplies",
-    content:
-      "Reliable, professional, and results-driven. Hirex.lk delivered exactly what we needed to grow our team quickly.",
-  },
-  {
+    {
     img: TestimonialImg08,
-    name: "Pramodhie Abeywickrama",
-    company: "HR Executive at Vista Hotels",
+    name: "Tanushree Hatharasinghe ",
+    company: "Allocations consultant at a leading Australian company",
     content:
-      "We needed seasonal staffing on short notice. Hirex.lk exceeded expectations with their prompt and effective solutions.",
+      "Working at HireX has been such a fulfilling experience. Despite the fast-paced nature of the job, the team’s friendly, down to earth vibe makes every day enjoyable. What I appreciate most is how much they genuinely care about our wellbeing and truly value the effort we put into our work, it makes all the difference.",
   },
   {
     img: TestimonialImg09,
-    name: "Harsha Gunasekara",
-    company: "Director at PrimeTech Solutions",
+    name: "Amanda Bandara ",
+    company: "Account Support at a leading Australian company",
     content:
-      "Their customized workforce solutions saved us time and hassle. I’ll continue partnering with them for all our hiring needs.",
+      "Working at Hirex has been a truly rewarding experience. The flexibility in work arrangements and the supportive leadership have made it easier to adapt and grow within the role. The training provided was well-structured and helped me gain confidence in a new market. I appreciate the opportunities for development and the competitive package offered. It’s a great environment to learn, contribute, and thrive.",
   },
+  {
+    img: TestimonialImg05,
+    name: "Sadeshani SooriyaArachchi",
+    company: " Junior Consultant Allocations at a leading Australian company ",
+    content:
+      " Hirex definitely knows how to make you feel a part of the family They are incredibly flexible and easy to work with, making ever experience smooth and supportive. It truly is a team that respects your time, talent and well being!",
+  },
+   {
+    img: TestimonialImg06,
+    name: "Rashen Perera",
+    company: "Account Support at a leading Australian company",
+    content:
+      "Hirex has been very supportive and accommodating with transitioning into a new industry/ market. They opened the pathway for new opportunities and experiences, providing excellent training methods to ease the transition..",
+  },
+  {
+    img: TestimonialImg07,
+    name: "Ransika Liyanage ",
+    company: "Junior allocations consultant at a leading Australian company",
+    content:
+      "Hirex provides a truly collaborative and supportive work environment, making you feel valued from day one. Their flexibility, efficiency, and genuine respect for their team’s time, skills, and well-being set them apart. It’s a pleasure working with a company that prioritizes both professionalism and a people-first culture.",
+  },
+ 
+  {
+    img: TestimonialImg03,
+    name: "Jayani Silva",
+    company: "Junior Consultant at a leading Australian company",
+    content:
+      "I’m grateful to be part of the team at Hirex Pvt Ltd. From day one, I’ve felt supported and encouraged in my role as a Junior Allocation Consultant. The company culture is friendly, and everyone is focused on helping each other succeed.",
+  },
+  
 ];
 
 export default function Testimonials() {
   const masonryContainer = useMasonry();
 
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 sm:px-6 ">
       <div className="border-t py-12 md:py-20">
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-12 text-center">
-          <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#99C2E8,#FFFFFF,#B8F2F2,#FFFFFF,#99C2E8)] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Hear from our customers
+          <h2 className="pb-4 font-nacelle text-3xl font-semibold text-gray-900 md:text-4xl">
+            Hear from our Employees
           </h2>
-          <p className="text-lg text-indigo-200/65">
+
+          <p className="text-lg text-sky-800">
             Trusted by companies across Sri Lanka to deliver reliable, effective, and tailored workforce solutions.
           </p>
         </div>
@@ -102,11 +105,7 @@ export default function Testimonials() {
           ref={masonryContainer}
         >
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="group">
-              <Testimonial testimonial={testimonial}>
-                {testimonial.content}
-              </Testimonial>
-            </div>
+            <TestimonialCard key={index} testimonial={testimonial} />
           ))}
         </div>
       </div>
@@ -114,9 +113,8 @@ export default function Testimonials() {
   );
 }
 
-export function Testimonial({
+function TestimonialCard({
   testimonial,
-  children,
 }: {
   testimonial: {
     img: StaticImageData;
@@ -124,28 +122,49 @@ export function Testimonial({
     company: string;
     content: string;
   };
-  children: React.ReactNode;
 }) {
+  const [expanded, setExpanded] = useState(false);
+
+  const limit = 150;
+  const isLong = testimonial.content.length > limit;
+  const displayedContent = !expanded && isLong
+    ? testimonial.content.slice(0, limit) + "..."
+    : testimonial.content;
+
   return (
-    <article className="relative rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs transition-opacity before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]">
-      <div className="flex flex-col gap-4">
-        <p className="text-indigo-200/65 before:content-['“'] after:content-['”']">
-          {children}
+    <article
+      className="relative rounded-2xl bg-white p-6 shadow-md hover:shadow-xl transition-shadow max-w-md mx-auto flex flex-col justify-between "
+      style={{ minHeight: 320 }}
+    >
+      <div className="mb-6 flex-grow">
+        <p className="text-gray-800 leading-relaxed before:content-['“'] after:content-['”']">
+          {displayedContent}
         </p>
-        <div className="flex items-center gap-3">
-          <Image
-            className="inline-flex shrink-0 rounded-full"
-            src={testimonial.img}
-            width={36}
-            height={36}
-            alt={testimonial.name}
-          />
-          <div className="text-sm font-medium text-gray-200">
-            <span>{testimonial.name}</span>
-            <span className="block text-indigo-200/65 text-xs">{testimonial.company}</span>
-          </div>
+      </div>
+
+      <div className="flex items-center gap-4">
+        <Image
+          className="rounded-full object-cover border-2 border-sky-400"
+          src={testimonial.img}
+          width={48}
+          height={48}
+          alt={testimonial.name}
+        />
+        <div className="text-sm font-semibold text-gray-900 ">
+          <div>{testimonial.name}</div>
+          <div className="text-gray-500 text-xs">{testimonial.company}</div>
         </div>
       </div>
+
+      {isLong && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="mt-4 self-start text-sm font-semibold text-sky-600 hover:text-sky-800 transition"
+          aria-expanded={expanded}
+        >
+          {expanded ? "See less ▲" : "See more ▼"}
+        </button>
+      )}
     </article>
   );
 }
