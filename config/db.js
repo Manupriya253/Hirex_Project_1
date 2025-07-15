@@ -12,11 +12,15 @@ const db = mysql.createConnection({
 
 db.connect((err) => {
   if (err) {
-    console.error("❌ Failed to connect to MySQL DB:", err.message);
-    process.exit(1); // Exit the app if DB connection fails
+    console.error("❌ MySQL Connection Error:", err.message);
+    if (err.code === 'ETIMEDOUT') {
+      console.error("❗ Check if DB host is reachable and remote access is allowed");
+    }
+    process.exit(1);
   } else {
     console.log(`✅ Connected to MySQL DB '${process.env.DB_NAME}'`);
   }
 });
+
 
 export default db;
